@@ -1,0 +1,27 @@
+body {
+  background-image: url(../img/wood-591631_1920.jpg);
+  color: black;
+}
+
+.carrousel1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5% 2%;
+  background-color: rgba(99, 91, 91, 0.815);
+  width: 75vw;
+}
+
+footer {
+  background-color: rgba(99, 91, 91, 0.815);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer p {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
