@@ -6,6 +6,37 @@ $prefix: "mo-";
 body{
     background-image: url(../img/wood-591631_1920.jpg);
     color: black;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    .col{
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.navbar{
+    border-radius: 0 0 20px 20px;
+}
+.main{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(99, 91, 91, 0.815);
+}
+
+h1{
+    text-align: center;
+    text-decoration: double solid;
+    text-shadow: #900;
+    padding: 2px;
+    
+    margin: 10px ;
 }
 .carrousel1{
     margin-top: 2%;
@@ -16,20 +47,41 @@ body{
 }
 footer{
     background-color: rgba(99, 91, 91, 0.815);
+    border-radius:  20px 20px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+}
+.aside {
+    border-radius: 20px;
+    text-align: center;
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    border: solid 5px #d4d4d4;
+    margin: 1%;
 
+    .noticia {
+        display: flex;
 
-    p {
-        padding: 0;
-        margin: 0;
+        flex-direction: column;
+        background-color: #ffffff56;
+        align-items: center;
+        padding: 5px;
+        margin: 1%;
+        border-radius: 20px;
+
+        p {
+            font-weight: bolder;
+        }
     }
 }
-p{
-    
-}
 
+// 4118 2800 0003 8561 11/28  maria s galvez  525
