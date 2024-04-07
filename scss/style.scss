@@ -29,11 +29,47 @@ main{
     border-radius: 20px;
     background-color: rgba(99, 91, 91, 0.815);
 }
-
+.carousel-item{
+    img{
+    border-radius: 20px;
+    }
+}
+.index-text{
+    p{
+        font-weight: bold;
+    }
+}
 .gridmenu{
     display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: stretch;
+    .Drinks,
+    .Desserts,
+    .Main-Courses,
+    .Appetizers{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 20px;
+        border: solid 5px #d4d4d4;
+        img{
+            width: 300px;
+        }
+    }
 }
 
+.historia{
+    display: flex;
+
+    flex-direction: column;
+    background-color: #0000009d;
+    align-items: center;
+    padding: 5px;
+    margin: 1%;
+    border-radius: 20px;
+}
 h1{
     text-align: center;
     text-decoration: double solid;
@@ -76,7 +112,7 @@ footer{
         display: flex;
 
         flex-direction: column;
-        background-color: #ffffff56;
+        background-color: #02020270;
         align-items: center;
         padding: 5px;
         margin: 1%;
@@ -88,4 +124,3 @@ footer{
     }
 }
 
-// 4118 2800 0003 8561 11/28  maria s galvez  525
