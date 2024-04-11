@@ -114,6 +114,7 @@ footer {
 }
 .aside .noticia {
   display: flex;
+  flex: 1;
   flex-direction: column;
   background-color: rgba(2, 2, 2, 0.4392156863);
   align-items: center;
